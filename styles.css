@@ -1,0 +1,57 @@
+#main {
+    background: rgba(130, 0, 0, 0.15);
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+  }
+  #tribute-info {
+    line-height: 1.5;
+  }
+  #tribute-link {
+    text-align: center;
+  }
+  ul {
+    text-align: left;
+  }
+  li {
+    margin: 16px 0;
+  }
+  .intend {
+    padding-left: 45px;
+  }
+  h1 {
+    text-align: center;
+  }
+  #underheader {
+    text-align: center;
+  }
+  #img-div {
+    text-align: center;
+  }
+  #img-caption {
+    font-style: italic;
+    padding: 10px;
+  }
+  footer {
+    color: rgba(79, 29, 29, 0.59);
+    text-align: center;
+    padding: 20px;
+  }
+  @media (max-width: 600px) {
+    #image {
+      max-width: 75%;
+    }
+  }
+  @media (max-width: 460px) {
+    #image {
+      max-width: 75%;
+    }
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border: 10px outset white;
+  }
+  
